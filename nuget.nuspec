@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Afx.Data.Oracle.Entity</id>
+    <version>10.0.0</version>
+    <authors>jerrylai</authors>
+    <owners>jerrylai</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Afx.Data.Oracle.Entity</description>
+    <projectUrl>https://github.com/jerrylai/Afx.Data.Oracle.Entity</projectUrl>
+    <copyright>jerrylai@aliyun.com</copyright>
+    <tags>Oracle EF EntityFramework</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.5">
+        <dependency id="Afx.Data.Entity" version="10.0.0" />
+        <dependency id="Afx.Data" version="10.0.0" />
+        <dependency id="Oracle.ManagedDataAccess" version="19.7.0" />
+        <dependency id="Oracle.ManagedDataAccess.EntityFramework" version="19.7.0" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="publish\**" target="lib" />
+  </files>
+</package>
